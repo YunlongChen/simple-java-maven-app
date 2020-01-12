@@ -10,6 +10,7 @@ public class MainController {
 
     @GetMapping("index")
     public String index() {
+        System.out.println("这是最近更改了@");
         return "Index";
     }
 }
