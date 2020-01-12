@@ -8,6 +8,7 @@ public class SimpleJavaMavenAppApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SimpleJavaMavenAppApplication.class, args);
+        //这里进行了一个修改了
     }
 
 }
