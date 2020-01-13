@@ -27,5 +27,10 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
+        stage('FinalTest'){
+            steps{
+                sh 'echo "this is test"'
+            }
+        }
     }
 }
